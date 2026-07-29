@@ -1,0 +1,8 @@
+x_tuple = (1,1.1,True, "hello")
+print(x_tuple)
+y_tuple = x_tuple + (2,)
+print(y_tuple)
+z_tuple = (1,2,2,2,2,2,3,4,5)
+print("Number of times two is repeated is", z_tuple.count(2))
+print(z_tuple[:7])
+print(z_tuple[1:7])
